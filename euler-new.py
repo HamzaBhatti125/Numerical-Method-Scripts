@@ -2,6 +2,8 @@ x0 = 0
 y0 = 1
 h = 0.5
 x1 = 2
+# these above things are user defined
+
 n = int((x1-x0)/h)
 
 xn = []
@@ -10,7 +12,7 @@ yn2 = []
 func = []
 
 def functionOFX(x,y):
-    return ((y*(x**2)) - (1.1*y))
+    return ((y*(x**2)) - (1.1*y)) #define function here
 
 def funcOfyn1(a,b,c):
     return a+(b*c)
