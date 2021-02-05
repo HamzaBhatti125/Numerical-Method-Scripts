@@ -1,9 +1,9 @@
 def function_of_xy(x,y):
-    return x+y
+    return x+(y**2)
 
-h=0.5
-x0 = 0.0
-y0=1.0
+h=0.1
+x0 = 0.2
+y0=0.01653
 
 k1 = h*function_of_xy(x0,y0)
 k2 = h*function_of_xy((x0)+(1/2*h), y0+(1/2*k1))
